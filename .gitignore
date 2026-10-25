@@ -1,0 +1,28 @@
+# Secrets
+.env
+*.env
+
+# Data (redistribution prohibited) & media
+data/
+*.mp4
+*.wav
+*.mp3
+*.xlsx
+*.pkl
+uploads/
+temp/
+
+# Model weights
+backend/weights/
+*.pt
+*.pth
+*.safetensors
+*.bin
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
